@@ -1,0 +1,96 @@
+.chat_class {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat__header {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  /* width: 100%; */
+  border-bottom: 1px solid rgb(199 201 202 / 87%);
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.chat__headerInfo {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.header__right {
+  display: flex;
+  min-width: 100px;
+  justify-content: space-between;
+}
+
+.chat__message {
+  background-color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  font-size: 16px;
+  margin-bottom: 30px;
+  right: 0px;
+}
+
+.chat__timestamp {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+.chat__username {
+  position: absolute;
+  top: -15px;
+  font-size: xx-small;
+  font-weight: 800;
+}
+
+.chat__body {
+  background-image: url("https://wallpapercave.com/wp/wp5149772.jpg");
+  flex: 1;
+  background-repeat: repeat;
+  background-position: center;
+  padding: 30px;
+}
+
+.chat__receiver {
+  margin-left: auto;
+  background-color: rgb(42, 136, 97);
+}
+
+.chat__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border: 2px solid lightgray;
+  padding: 0px 9px;
+}
+.chat__footer > form > button {
+  display: none;
+}
+
+.chat__footer > form {
+  display: flex;
+  flex: 1;
+}
+
+.chat__footer > form > input {
+  flex: 1;
+  margin: 0px 15px;
+  border: none;
+  border-radius: 15px;
+  height: 30px;
+}
+
+.chat__footer > form > input:focus {
+  outline: none;
+}
+
+.chat__footer > .MuiSvgIcon-root {
+  color: gray;
+  cursor: pointer;
+}

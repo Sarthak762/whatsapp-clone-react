@@ -1,0 +1,27 @@
+.sidebarChat {
+  display: flex;
+  cursor: pointer;
+  padding: 15px;
+  border-bottom: 1px solid #d4d7d8;
+}
+
+.sidebarChat:hover {
+  background-color: #d8d9da;
+}
+.userChatData {
+  display: flex;
+  justify-content: space space-between;
+  flex-direction: column;
+  width: 328px;
+  margin-left: 15px;
+}
+
+.chat__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addnewchat {
+  margin-left: 40px;
+}
