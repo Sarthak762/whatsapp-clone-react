@@ -1,0 +1,33 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.login__Container {
+  text-align: center;
+  width: 30vw;
+  height: 50vh;
+  background-color: white;
+  padding: 54px;
+  box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 42%);
+  border-radius: 15px;
+}
+
+.login__Container > img {
+  width: 224px;
+  height: 133px;
+  margin-bottom: 65px;
+}
+
+.login__Container > button {
+  background-color: #2c9242;
+  color: white;
+  margin: 25px;
+}
+
+.login__Container > button:hover {
+  color: black;
+  background-color: #6b9e76;
+}
